@@ -9,7 +9,7 @@ Developers are often tasked with creating interfaces that make it easy for non-d
 ### App working example
 
 ![Git](EmployeeTracker.gif)   
-[Youtube Video Link of App](https://youtu.be/aPUk7Up_62c)
+[Youtube Video Link of App looks good if use HD](https://youtu.be/aPUk7Up_62c)
 
 ### App Screen Shots
 
@@ -24,7 +24,6 @@ Developers are often tasked with creating interfaces that make it easy for non-d
 - [Usage](#Usage)
 - [Licence](#Licence)
 - [Repository Link](#Repository)
-- [GitHub Info](#GitHub) 
 
 ## Installation
 Run:
