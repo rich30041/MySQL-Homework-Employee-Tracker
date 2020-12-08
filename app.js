@@ -271,7 +271,7 @@ var connection = mysql.createConnection({
         name: "viewChoice",
         type: "list",
         message: "What would you like to view?",
-        choices: ["DEPARTMENTS", "ROLES", "EMPLOYEES", "EMPLOYEES BY MANAGER", "SALARIES", "EXIT"]
+        choices: ["DEPARTMENTS", "ROLES", "EMPLOYEES", "EMPLOYEES BY MANAGER", "DEPARTMENT SALARIES", "EXIT"]
       }
     ]).then(answer => {
       if (answer.viewChoice === "DEPARTMENTS") {
@@ -290,7 +290,7 @@ var connection = mysql.createConnection({
         console.log('\r\n');
         viewEmployeesByManager();
       }
-      else if (answer.viewChoice === "SALARIES") {
+      else if (answer.viewChoice === "DEPARTMENT SALARIES") {
         console.log('\r\n');
         viewDeptSalary();
       }
@@ -359,7 +359,7 @@ var connection = mysql.createConnection({
   `
   connection.query(x, (err, res) => {
     if (err) throw err;
-    figlet('Employees', (err, result) => {
+    figlet('Managers', (err, result) => {
       console.log(err || result);
     });
   
@@ -378,7 +378,7 @@ var connection = mysql.createConnection({
     `
     connection.query(x, (err, res) => {
       if (err) throw err;
-      figlet('Employees', (err, result) => {
+      figlet('Department Salaries', (err, result) => {
         console.log(err || result); 
       });
     
