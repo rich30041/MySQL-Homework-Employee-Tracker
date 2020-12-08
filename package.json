@@ -1,0 +1,30 @@
+{
+  "name": "mysql-homework-employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "watch": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rich30041/MySQL-Homework-Employee-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rich30041/MySQL-Homework-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/rich30041/MySQL-Homework-Employee-Tracker#readme",
+  "dependencies": {
+    "console-table-printer": "^2.5.1",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }
+}
