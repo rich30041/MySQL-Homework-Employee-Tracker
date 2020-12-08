@@ -54,4 +54,4 @@ The application will be invoked with the following command:
 
 ## Repository
 
-- [Project Repo](https://github.com/rich30041/MySQL-Homework-Employee-Tracker)
+- [Project Repository](https://github.com/rich30041/MySQL-Homework-Employee-Tracker)
